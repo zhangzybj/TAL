@@ -2,7 +2,6 @@ package com.tal.xes.service;
 
 import java.util.List;
 
-import com.tal.xes.service.dto.RegionDTO;
 
 /**
  * Service Interface for managing Region.
@@ -10,28 +9,7 @@ import com.tal.xes.service.dto.RegionDTO;
 public interface RegionService {
 
     /**
-     * Save a region.
-     *
-     * @param regionDTO the entity to save
-     * @return the persisted entity
-     */
-    RegionDTO save(RegionDTO regionDTO);
-
-    /**
-     * Get all the regions.
-     *
-     * @return the list of entities
-     */
-    List<RegionDTO> findAll();
-
-    /**
-     * Get the "id" region.
-     *
-     * @param id the id of the entity
-     * @return the entity
-     */
-    RegionDTO findOne(Long id);
-
+   
     /**
      * Delete the "id" region.
      *

@@ -2,7 +2,6 @@ package com.tal.xes.web.rest;
 
 import com.codahale.metrics.annotation.Timed;
 import com.tal.xes.service.RegionService;
-import com.tal.xes.service.dto.RegionDTO;
 import com.tal.xes.web.rest.errors.BadRequestAlertException;
 import com.tal.xes.web.rest.util.HeaderUtil;
 
