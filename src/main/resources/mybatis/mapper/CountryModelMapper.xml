@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.tal.xes.mapper.CountryModelMapper">
-  <resultMap id="BaseResultMap" type="com.tal.xes.entity.CountryModel">
+  <resultMap id="BaseResultMap" type="com.tal.xes.domain.CountryModel">
     <result column="id" jdbcType="BIGINT" property="id" />
     <result column="country_name" jdbcType="VARCHAR" property="countryName" />
     <result column="region_id" jdbcType="BIGINT" property="regionId" />
   </resultMap>
-  <insert id="insert" parameterType="com.tal.xes.entity.CountryModel">
+  <insert id="insert" parameterType="com.tal.xes.domain.CountryModel">
     insert into country (id, country_name, region_id
       )
     values (#{id,jdbcType=BIGINT}, #{countryName,jdbcType=VARCHAR}, #{regionId,jdbcType=BIGINT}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.tal.xes.entity.CountryModel">
+  <insert id="insertSelective" parameterType="com.tal.xes.domain.CountryModel">
     insert into country
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">

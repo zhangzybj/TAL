@@ -6,7 +6,7 @@ package com.tal.xes.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.tal.xes.entity.CountryModel;
+import com.tal.xes.domain.CountryModel;
 import com.tal.xes.mapper.CountryModelMapper;
 import com.tal.xes.service.CountryTestService;
 

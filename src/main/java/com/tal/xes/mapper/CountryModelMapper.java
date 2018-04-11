@@ -1,6 +1,6 @@
 package com.tal.xes.mapper;
 
-import com.tal.xes.entity.CountryModel;
+import com.tal.xes.domain.CountryModel;
 
 public interface CountryModelMapper {
     int insert(CountryModel record);

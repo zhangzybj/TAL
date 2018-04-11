@@ -1,8 +1,4 @@
 package com.tal.xes.service;
-
-import java.util.List;
-
-
 /**
  * Service Interface for managing Country.
  */

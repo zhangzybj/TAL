@@ -1,4 +1,4 @@
-package com.tal.xes.entity;
+package com.tal.xes.domain;
 
 public class CountryModel {
     private Long id;

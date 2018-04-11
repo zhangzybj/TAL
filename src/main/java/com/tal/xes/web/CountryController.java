@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tal.xes.entity.CountryModel;
+import com.tal.xes.domain.CountryModel;
 import com.tal.xes.service.CountryTestService;
 
 /**   
