@@ -1,4 +1,4 @@
-package com.tal.xes.enums;
+package com.tal.xes.domain.enumeration;
 
 public enum UserSexEnum {
 	MAN, WOMAN

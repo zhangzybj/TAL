@@ -2,7 +2,8 @@ package com.tal.xes.entity;
 
 import java.io.Serializable;
 
-import com.tal.xes.enums.UserSexEnum;
+import com.tal.xes.domain.enumeration.UserSexEnum;
+
 
 public class UserEntity implements Serializable {
 
