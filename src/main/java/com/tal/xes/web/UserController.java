@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tal.xes.entity.UserEntity;
+import com.tal.xes.domain.UserEntity;
 import com.tal.xes.mapper.UserMapper;
 
 @RestController

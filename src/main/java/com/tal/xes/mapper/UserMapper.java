@@ -2,7 +2,7 @@ package com.tal.xes.mapper;
 
 import java.util.List;
 
-import com.tal.xes.entity.UserEntity;
+import com.tal.xes.domain.UserEntity;
 
 public interface UserMapper {
 	

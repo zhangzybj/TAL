@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.tal.xes.domain.UserEntity;
 import com.tal.xes.domain.enumeration.UserSexEnum;
-import com.tal.xes.entity.UserEntity;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

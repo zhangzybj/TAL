@@ -14,10 +14,10 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
-#logging:
-    #level:
+logging:
+    level:
         #ROOT: #logback.loglevel#
-       #com.tal.xes: #logback.loglevel#
+       com.tal.xes: #logback.loglevel#
 
 management:
     security:

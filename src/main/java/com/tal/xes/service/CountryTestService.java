@@ -5,7 +5,7 @@ package com.tal.xes.service;
 
 import org.springframework.stereotype.Service;
 
-import com.tal.xes.entity.CountryModel;
+import com.tal.xes.domain.CountryModel;
 
 /**   
 * @Title: CountryServiceTest.java 

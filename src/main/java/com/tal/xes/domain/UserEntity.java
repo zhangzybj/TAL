@@ -1,4 +1,4 @@
-package com.tal.xes.entity;
+package com.tal.xes.domain;
 
 import java.io.Serializable;
 
