@@ -6,7 +6,6 @@
 	<groupId>com.tal.xes</groupId>
 	<artifactId>tal-xes-server</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
 
 	<name>tal-xes-server</name>
 	<description>Demo project for Spring Boot and mybatis</description>
